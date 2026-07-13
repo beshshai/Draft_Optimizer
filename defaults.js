@@ -10,7 +10,7 @@ const DEFAULTS = {
   m2Dmin: 4, m2Dmax: 6.5,
   m3Dmin: 8.5, m3Dmax: 9.5,
   fixD1: false, fixD1Val: 4.00,
-  useSolver: false,
+  useSolver: true,
   m1Gauge: 335, m1DistType: 'peak', m1Mean: 145, m1Std: 95, m1Lmin: 30.5, m1Lmax: 396.6,
   m1PBack: 300, m1PFront: 300, m1PFloor: 2.00, m1NipW: 3, m1Tol: 0.01, m1MaxIter: 120,
   m2Gauge: 335, m2DistType: 'peak', m2Mean: 130, m2Std: 80, m2Lmin: 29.6, m2Lmax: 330.4,
@@ -20,8 +20,8 @@ const DEFAULTS = {
 };
 
 const DEFAULT_COMBOS = [[2, 3, 2], [2, 4, 1], [4, 3, 2], [4, 4, 1], [4, 4, 2]];
-const DEFAULT_FEED_LIST = '16.5';
-const DEFAULT_TARGET_LIST = '163';
+const DEFAULT_FEED_LIST = '8';
+const DEFAULT_TARGET_LIST = '160';
 
 const NUMERIC_KEYS = Object.keys(DEFAULTS).filter((k) => typeof DEFAULTS[k] === 'number');
 
