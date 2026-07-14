@@ -2,7 +2,7 @@
 
 const DEFAULTS = {
   m1In: 10.35,
-  gap12: 48, gap23: 20, gridN: 140,
+  gap12: 20, gap23: 20, gridN: 140,
   m1W: 2.9, m1A: 0.10, m1I: 0.50,
   m2W: 2.9, m2A: 0.40, m2I: 0.50,
   m3W: 2.9, m3A: 0.40, m3I: 0.50,
